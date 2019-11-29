@@ -1,0 +1,22 @@
+header {
+  background-color: teal;
+  color: #fff;
+  padding: 10px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin-right: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}

@@ -1,0 +1,19 @@
+<h1>Shortener</h1>
+
+<div class = 'form'>
+  <input type='text' placeholder='Name' [(ngModel)]='name'>
+  <input type="text" placeholder="URL" [(ngModel)]='url'>
+  <button (click)='onSubmit()'>Shorten</button>
+</div>
+
+<ul>
+  <li *ngFor="let short of shortenings" class="card">
+    <h3>{{ short.name }}</h3>
+    <div>
+      <button (click)='goToDetails(short.code)'>View details</button>
+      <button (click)='onDelete(short.code)'>Delete</button>
+    </div>
+  </li>
+</ul>
+
+

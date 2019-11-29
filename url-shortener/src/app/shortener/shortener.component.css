@@ -1,0 +1,16 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+<div class = 'details'>
+  <div class = 'head'>
+    <h2>{{ details.name }}</h2>
+    <button (click)='onDelete()' class = 'btnDel'>Delete</button>
+  </div>
+  <p>Original link: <a [href] = 'details.original_link' target="_blank">{{ details.original_link }}</a></p>
+  <p>Share link: <a [href] = 'details.full_share_link' target="_blank">{{ details.share_link }}</a></p>
+  <p>Short link: <a [href] = 'details.full_short_link' target="_blank">{{ details.short_link }}</a></p>
+  <p>Short link2: <a [href] = 'details.full_short_link2' target="_blank">{{ details.short_link2 }}</a></p>
+</div>
